@@ -25,6 +25,13 @@ pip install git+https://github.com/alaeddine-13/thinkgpt.git
 ```
 
 ## API Documentation 📚
+
+### Setup your OpenAI Api Key
+```python
+import os
+os.environ["OPENAI_API_KEY"] = "sk-abcdef1234567890abcdef1234567890abcdef1234567890"
+```
+
 ### Basic usage:
 ```python
 from thinkgpt.llm import ThinkGPT
